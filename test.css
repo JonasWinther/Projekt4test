@@ -2,6 +2,30 @@
   --gradient: linear-gradient(45deg, #09794e, #12ba85, #3e97e7, #46e0ff);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+position: fixed;
+display: flex;
+width: 100%;
+Height: 70px;
+background-color: #fff;
+
+
+}
+
+.nav{
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
 body {
   background-image: var(--gradient);
   font-family: basic-sans, sans-serif;
