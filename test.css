@@ -1,0 +1,21 @@
+:root {
+  --gradient: linear-gradient(45deg, #000000, #1c1b1b, #572b2b, #882b2b);
+}
+
+body {
+  background-image: var(--gradient);
+  font-family: basic-sans, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 300%;
+  animation: bg-animation 19s infinite;
+  color: #fff;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
