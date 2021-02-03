@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(45deg, #000000, #1c1b1b, #572b2b, #882b2b);
+  --gradient: linear-gradient(45deg, #09794e, #12ba85, #3e97e7, #46e0ff);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   background-size: 300%;
-  animation: bg-animation 19s infinite;
+  animation: bg-animation 15s infinite;
   color: #fff;
 }
 
